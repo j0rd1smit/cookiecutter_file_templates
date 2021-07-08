@@ -1,0 +1,9 @@
+{
+   "name": null,
+   "automatic_optimization": ["True", "False"],
+   "training_epoch_end": ["False", "True"],
+   "validation_loop": ["True", "False"],
+   "test_loop": ["False", "True"],
+   "prediction_loop": ["False", "True"],
+   "lr_scheduler": ["None", "OneCycleLR"]
+}
