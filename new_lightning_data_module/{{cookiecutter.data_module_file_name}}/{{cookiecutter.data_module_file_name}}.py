@@ -29,7 +29,7 @@ DatasetClass = Any  # TODO
 {% endif %}
 
 
-class {{cookiecutter.name|replace("_", " ")|title|replace(" ", "")}}(pl.LightningDataModule):
+class {{cookiecutter.data_module_class_name}}(pl.LightningDataModule):
     _train_dataset: DatasetClass
     _val_dataset: DatasetClass
     _test_dataset: DatasetClass
