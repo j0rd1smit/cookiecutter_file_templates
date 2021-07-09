@@ -1,0 +1,7 @@
+{
+   "name": "DataModule",
+   "validation_loop": ["True", "False"],
+   "test_loop": ["False", "True"],
+   "prediction_loop": ["False", "True"],
+   "custom_dataset": ["False", "True"]
+}
