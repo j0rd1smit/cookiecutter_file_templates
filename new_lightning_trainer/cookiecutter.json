@@ -1,0 +1,11 @@
+{
+   "trainer_file_name": "train_model",
+   "test_loop": ["False", "True"],
+   "prediction_loop": ["False", "True"],
+   "lr_scheduler": ["None", "OneCycleLR"],
+   
+   "model_file_name": "Model",
+   "model_class_name": "{{cookiecutter.model_file_name|lower|replace('_', ' ')|title|replace(' ', '')}}",
+   "data_module_file_name": "DataModule",
+   "data_module_class_name": "{{cookiecutter.data_module_file_name|lower|replace('_', ' ')|title|replace(' ', '')}}"
+}

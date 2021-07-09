@@ -1,0 +1,1 @@
+../../new_lightning_trainer/{{cookiecutter.trainer_file_name}}/{{cookiecutter.trainer_file_name}}.py
