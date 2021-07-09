@@ -1,0 +1,1 @@
+../../new_lightning_data_module/{{cookiecutter.data_module_file_name}}/{{cookiecutter.data_module_file_name}}.py

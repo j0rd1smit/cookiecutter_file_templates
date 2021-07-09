@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from torch.optim import Optimizer
 
 
-class {{cookiecutter.name|replace("_", " ")|title|replace(" ", "")}}(pl.LightningModule):
+class {{cookiecutter.model_class_name}}(pl.LightningModule):
     def __init__(
         self,
         *,

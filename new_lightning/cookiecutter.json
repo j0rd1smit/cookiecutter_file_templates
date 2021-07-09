@@ -6,5 +6,11 @@
    "validation_loop": ["True", "False"],
    "test_loop": ["False", "True"],
    "prediction_loop": ["False", "True"],
-   "lr_scheduler": ["None", "OneCycleLR"]
+   "lr_scheduler": ["None", "OneCycleLR"],
+
+   "data_module_file_name": "DataModule",
+   "data_module_class_name": "{{cookiecutter.data_module_file_name|lower|replace('_', ' ')|title|replace(' ', '')}}",
+   "custom_dataset": ["False", "True"],
+
+   "tmp_folder_name": "tmp"
 }
