@@ -1,0 +1,12 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python={{cookiecutter.python}}
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
