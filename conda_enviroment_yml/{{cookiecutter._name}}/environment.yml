@@ -14,9 +14,9 @@ dependencies:
   {{""}}
   - pandas
   {% endif %}
-  {%- if cookiecutter.matplotlib == 'True' -%}
+  {%- if cookiecutter.mathplotlib == 'True' -%}
   {{""}}
-  - matplotlib
+  - mathplotlib
   {% endif %}
   {%- if cookiecutter.scikit_learn == 'True' -%}
   {{""}}
