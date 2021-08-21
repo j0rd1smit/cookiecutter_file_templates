@@ -4,6 +4,6 @@
    "numpy": ["False", "True"],
    "pandas": ["False", "True"],
    "mathplotlib": ["False", "True"],
-   "scikit-learn": ["False", "True"],
+   "scikit_learn": ["False", "True"],
    "pytorch": ["False", "True"]
 }
