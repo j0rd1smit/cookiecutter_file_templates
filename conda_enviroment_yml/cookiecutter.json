@@ -1,4 +1,9 @@
 {
    "_name": "tmp",
-   "python": "3.8"
+   "python": ["3.8", "3.9"],
+   "numpy": ["False", "True"],
+   "pandas": ["False", "True"],
+   "mathplotlib": ["False", "True"],
+   "scikit-learn": ["False", "True"],
+   "pytorch": ["False", "True"]
 }

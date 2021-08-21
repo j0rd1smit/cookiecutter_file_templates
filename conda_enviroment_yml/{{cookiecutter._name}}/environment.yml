@@ -6,7 +6,27 @@ channels:
 
 dependencies:
   - python={{cookiecutter.python}}
+  {%- if cookiecutter.numpy == 'True' -%}
+  {{""}}
   - numpy
+  {% endif %}
+  {%- if cookiecutter.pandas == 'True' -%}
+  {{""}}
   - pandas
+  {% endif %}
+  {%- if cookiecutter.matplotlib == 'True' -%}
+  {{""}}
   - matplotlib
+  {% endif %}
+  {%- if cookiecutter.scikit_learn == 'True' -%}
+  {{""}}
+  - "scikit-learn"
+  {% endif %}
+  {%- if cookiecutter.pytorch == 'True' -%}
+  {{""}}
+  - torch
+  - torchaudio
+  - torchvision
+  - "pytorch-lightning"
+  {% endif %}
   - pip
