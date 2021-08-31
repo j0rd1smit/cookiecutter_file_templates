@@ -16,7 +16,7 @@ dependencies:
   {% endif %}
   {%- if cookiecutter.mathplotlib == 'True' -%}
   {{""}}
-  - mathplotlib
+  - matplotlib
   {% endif %}
   {%- if cookiecutter.scikit_learn == 'True' -%}
   {{""}}
