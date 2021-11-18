@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: format_info.json
+        name: format_info.json
+        files: ''
+        stages: [ commit ]
+        language: python
+        args: []
+        entry: python generate_json_data.py
