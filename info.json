@@ -1,10 +1,10 @@
 {
   "dirs": [
-    "new_lightning_model",
-    "new_lightning_trainer",
-    "new_lightning",
     "conda_enviroment_yml",
     "new_python_file",
-    "new_lightning_data_module"
+    "pytorch-lightning/new_lightning",
+    "pytorch-lightning/new_lightning_data_module",
+    "pytorch-lightning/new_lightning_model",
+    "pytorch-lightning/new_lightning_trainer"
   ]
 }
