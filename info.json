@@ -1,10 +1,10 @@
 {
   "dirs": [
-    "conda_enviroment_yml",
-    "new_python_file",
-    "pytorch-lightning/new_lightning",
-    "pytorch-lightning/new_lightning_data_module",
-    "pytorch-lightning/new_lightning_model",
-    "pytorch-lightning/new_lightning_trainer"
+    "new_python_file/cookiecutter.json",
+    "python/pytorch-lightning/new_lightning/cookiecutter.json",
+    "python/pytorch-lightning/new_lightning_data_module/cookiecutter.json",
+    "python/pytorch-lightning/new_lightning_model/cookiecutter.json",
+    "python/pytorch-lightning/new_lightning_trainer/cookiecutter.json",
+    "yaml/conda_enviroment/cookiecutter.json"
   ]
 }
