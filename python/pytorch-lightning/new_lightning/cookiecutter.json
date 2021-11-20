@@ -12,6 +12,6 @@
    "data_module_class_name": "{{cookiecutter.data_module_file_name|lower|replace('_', ' ')|title|replace(' ', '')}}",
    "custom_dataset": ["False", "True"],
 
-   "trainer_file_name": "train_model",
+   "trainer_file_name": "train_model"
 
 }
