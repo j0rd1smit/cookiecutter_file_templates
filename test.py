@@ -13,7 +13,7 @@ def main():
     for path in root.rglob("cookiecutter.json"):
         path = path.parent
         # Ignore bootstrapped templates
-        if "{{" not in str(path) and "}}" not in str(path):
+        if "{{" in str(path) and "}}" in str(path):
             continue
 
         assert (
