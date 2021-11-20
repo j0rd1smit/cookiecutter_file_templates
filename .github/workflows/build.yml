@@ -5,7 +5,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    str
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
