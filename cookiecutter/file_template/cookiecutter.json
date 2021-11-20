@@ -1,0 +1,6 @@
+{
+   "name":"",
+   "_copy_without_render":[
+      "{{cookiecutter.file_name}}"
+   ]
+}
