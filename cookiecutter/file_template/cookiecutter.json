@@ -1,5 +1,6 @@
 {
-   "name":"",
+   "folder_name":"example",
+   "file_name": "example.txt",
    "_copy_without_render":[
       "{{cookiecutter.file_name}}"
    ]
