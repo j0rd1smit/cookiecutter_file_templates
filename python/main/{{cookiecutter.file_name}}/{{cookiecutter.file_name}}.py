@@ -3,7 +3,7 @@
 from argparse import ArgumentParser
 
 
-{% endif -%}
+{% endif %}
 
 def main():
 	{%- if cookiecutter.use_argparse|lower == "true" %}
