@@ -12,7 +12,6 @@ def main():
 
     dirs = sorted(dirs)
     root_node = Node.from_path(dirs)
-    root_node.display()
 
 
     with open(root / "info.json", "w") as f:

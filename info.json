@@ -1,6 +1,9 @@
 {
   "dirs": [
-    "new_python_file/cookiecutter.json",
+    "cookiecutter/file_template/cookiecutter.json",
+    "cookiecutter/file_template/{{cookiecutter.folder_name}}/cookiecutter.json",
+    "python/class/cookiecutter.json",
+    "python/main/cookiecutter.json",
     "python/pytorch-lightning/new_lightning/cookiecutter.json",
     "python/pytorch-lightning/new_lightning_data_module/cookiecutter.json",
     "python/pytorch-lightning/new_lightning_model/cookiecutter.json",
